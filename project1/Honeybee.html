@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Honeybee Animation</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background: linear-gradient(skyblue, lightgreen);
+        }
+
+        .bee {
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            background: yellow;
+            border-radius: 50%;
+            top: 50%;
+            left: 0;
+            animation: fly 10s linear infinite;
+        }
+
+        .bee::before {
+            content: "";
+            position: absolute;
+            width: 20px;
+            height: 80px;
+            background: black;
+            left: 15px;
+        }
+
+        .bee::after {
+            content: "";
+            position: absolute;
+            width: 20px;
+            height: 80px;
+            background: black;
+            right: 15px;
+        }
+
+        .wing {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            background: rgba(255, 255, 255, 0.7);
+            border-radius: 50%;
+            top: -20px;
+            animation: flap 0.2s infinite;
+        }
+
+        .wing.left {
+            left: 5px;
+        }
+
+        .wing.right {
+            right: 5px;
+        }
+
+        @keyframes fly {
+            0% {
+                left: -100px;
+                top: 50%;
+            }
+
+            25% {
+                top: 30%;
+            }
+
+            50% {
+                left: 100%;
+                top: 60%;
+            }
+
+            75% {
+                top: 40%;
+            }
+
+            100% {
+                left: -100px;
+                top: 50%;
+            }
+        }
+
+        @keyframes flap {
+            0% {
+                transform: scaleY(1);
+            }
+
+            50% {
+                transform: scaleY(0.5);
+            }
+
+            100% {
+                transform: scaleY(1);
+            }
+        }
+
+        .flower {
+            position: absolute;
+            bottom: 0;
+            width: 50px;
+            height: 50px;
+            background: pink;
+            border-radius: 50%;
+        }
+
+        .flower::after {
+            content: "";
+            position: absolute;
+            width: 10px;
+            height: 50px;
+            background: green;
+            left: 20px;
+            top: 50px;
+        }
+
+        .flower1 {
+            left: 20%;
+        }
+
+        .flower2 {
+            left: 50%;
+        }
+
+        .flower3 {
+            left: 80%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="bee">
+        <div class="wing left"></div>
+        <div class="wing right"></div>
+    </div>
+
+    <div class="flower flower1"></div>
+    <div class="flower flower2"></div>
+    <div class="flower flower3"></div>
+
+</body>
+
+</html>
