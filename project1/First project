@@ -1,9 +1,9 @@
 <!DOCTYPE html> <!-- Document type declaration -->
 <html> <!-- HTML document starts -->
 
-<head> <!-- Head section starts -->
-  <title>Structure of HTML</title> <!-- Title for browser tab -->
-</head> <!-- Head section ends -->
+<head> 
+  <title>Structure of HTML</title> 
+</head>
 
 <body> <!-- Main content starts -->
   <!-- Student introduction -->
