@@ -1,0 +1,62 @@
+<html> 
+    <head> 
+        <title> Welcome to the world of cuisines </title>
+    </head>
+
+    <body> 
+        <header>
+            <section>
+                <div class=" Indian foods "> 
+                    <h1> Indian Foods </h1>
+                    <p> Butter Chicken (Murgh Makhani): Tender chicken in a mild, creamy tomato and butter sauce.                                   Masala Dosa: A fermented rice and lentil crepe stuffed with spiced potatoes, served with coconut chutney.Rogan Josh: A fragrant, slow-cooked lamb curry originally from Kashmir.                                                                               Sorshe Chingri: Bengali-style prawns steamed in a pungent and tangy mustard sauce.                                               Dal Makhani: Slow-cooked black lentils and beans with butter and cream, a North Indian staple.                                Palak Paneer/Chole: Soft cottage cheese or chickpeas simmered in a spiced spinach gravy.</p>
+                    
+                    <a href=" https://en.wikipedia.org/wiki/Indian_cuisine "> Click here to see the definition of indian foods or cuisines </a> 
+                    <img src="kirtip-curry-6507120_1920.jpg " alt=" Your browser isn't supporting this image ">
+                    
+                    
+                </div>
+
+
+                <div class=" Foreign cuisines "
+                    <h1> Foreign cuisines </h1>
+                    <p> Italian: Known for simple, fresh, and comfort foods like Lasagna and Bolognese.
+                    
+                    Japanese: Known for precision, aesthetics, and dishes such as sushi and ramen.Mexican: Known for vibrant, bold spices, corn, and beans.                                    
+                    
+                    Thai: Known for balancing sweet, sour, spicy, and salty flavors, including Massaman curry.
+                    
+                    Chinese: Known for diverse regional styles and techniques, including Dim Sum and Sichuan.</p>
+
+                    <a href=" https://www.culinaryartsswitzerland.com/en/news/international-cuisines/ "> Click here to see more foreign cuisines with breif defintion </a>
+                    <img src="tanrica-food-9892197_1920.png " alt=" Your browser isn't supporting this image "> 
+                
+
+                </div>
+
+            </section>
+
+
+            <section> 
+                <div class=" Recipe of the indian cuisines " 
+
+                <h1> Recipe of Paneer and chole: </h1>
+                    <p> Paneer and Chole (also known as Chole Paneer or Chana Paneer) is a rich, protein-packed North Indian curry that combines
+                    soft paneer cubes with tender white chickpeas in a spiced tomato-onion gravy.                                                IngredientsBase: 1 cup dried white chickpeas (soaked 8+ hours) and 150–200g paneer cubes.Aromatics: 1 large onion (finely chopped), 2 medium tomatoes (pureed), 1 tsp ginger-garlic paste, and 2 green chillies.Whole Spices: 1 bay leaf, 1 cinnamon stick, 2 black cardamoms, and 1 tsp cumin seeds.Ground Spices: 1 tsp coriander powder, 1 tsp cumin powder, 1 tsp red chilli powder, ½ tsp
+                    turmeric, and 1 tsp garam masala.                                                                                          Finishing Touches: 1 tsp kasuri methi (dried fenugreek leaves), ½ tsp amchur (mango powder), and fresh coriander for garnish.🥣 Step-by-Step InstructionsPrepare the Chickpeas: Pressure cook the soaked chickpeas with 3 cups of water and salt for 10–12 whistles until soft. For a darker colour and deeper flavour, add a tea bag or dried amla to the cooker.Sauté the Paneer: Lightly fry the paneer cubes in a little oil or ghee until golden brown.                                                                  Optional: Soak the fried paneer in warm water for 5 minutes to keep it soft.Make the Masala: Heat 2 tbsp oil in a
+                    pan. Sauté cumin seeds and whole spices until fragrant. Add onions and fry until golden brown, then stir in the
+                    ginger-garlic paste.Cook the Gravy: Add tomato puree and cook until the oil starts to separate from the masala. Mix in
+                    all the ground spices (turmeric, chilli, coriander, and cumin powders) and sauté for a minute.Simmer: Add the cooked
+                    chickpeas along with their stock. Bring to a boil and simmer for 5–8 minutes. Mash a few chickpeas with the back of your
+                    spoon to thicken the gravy.                                                                                                    Final Addition: Add the paneer cubes, kasuri methi, amchur, and garam masala. Cook for another 2 minutes—don't overcook the paneer or it will turn rubbery.💡 Pro Tip: Serve hot with Bhature, Naan, or Jeera Rice
+                    for a classic Punjabi experience. </p>
+                    <a href=" https://www.vegrecipesofindia.com/chole-paneer-recipe-paneer-chole/ "> </a>
+                    <img src="anilsharma26-paneer-7043099_1920.jpg " alt=" Your browser isn't supporting this image "> 
+
+
+                </div> 
+
+            </section>
+
+        </header>
+    </body>
+</html>
