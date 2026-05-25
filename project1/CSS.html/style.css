@@ -1,0 +1,65 @@
+body {
+    background-color: #eeeeee;
+}
+header{
+
+    background-color: brown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+
+    background-color: aquamarine;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+}
+
+#intro{
+
+    background-color: lightpink;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+main-section-content h2 {
+
+    background-color: darkkhaki;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#bestsellers,
+footer {
+    background-color: lightyellow;
+}
+
+header,
+nav,
+#intro,
+#main-section,
+#bestsellers,
+footer {
+
+    border: 1px solid black;
+}
+
+header,
+nav,
+# main-section {
+    
+    border-radius: 10px;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+}
