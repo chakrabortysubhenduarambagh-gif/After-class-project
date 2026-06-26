@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title> WELCOME TO HTML DOM </title>
+        <style>
+            .alert{
+                color: aqua;
+                background-color: green;
+                padding: 5;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="heading"> This is a heading of Javascript </h1>
+        <p> Hello! , How are You? </p>
+        <p> How are you? </p>
+
+        <script>
+            let div = document.createElement('div');
+            div.id = "paragraph";
+            div.className = "alert";
+            div.innerHTML = "<p>Yeah! Good Job! You have successfully created HTML DOM. </p>";
+            document.body.append(div);
+            let heading = document.getElementById("heading");
+            heading.innerHTML = '&#128512';
+            document.querySelector('header p').innerHTML = "<strong> Good Job! </strong>";
+        </script>
+        </body>
+</html>
