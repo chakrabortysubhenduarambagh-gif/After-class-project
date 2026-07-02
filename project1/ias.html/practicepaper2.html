@@ -1,107 +1,149 @@
 <!DOCTYPE html>
 <html>
     <head>
-                <meta charset="utf8">
-                <meta name="viewport" content="width=device-width">
-                <title>Replit</title>
-                <link rel="stylesheet" href="https://stackpath.bootstrapcdncdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-                <title> Welcome to practice paper 2 </title>
+        <style>
+            .grid-item1 {
+                grid-area: header;
+            }
+            .grid-item2 {
+                grid-area: menu; 
+            }
+            .grid-item3 {
+                grid-area: main;
+            }
+            .grid-item4 {
+                grid-area: footer;
+            }
+            .grid-container {
+                display: grid;
+                grid-template-columns: auto auto auto auto auto;
+                grid-template-areas: 
+                'header header header header header'
+                'menu main main main main'
+                'footer footer footer footer footer';
+                background-color: blue;
+                padding: 45px;
+            }
+            .grid-container div {
+                background-color: yellow;
+                text-align: center;
+                padding: 35px;
+                border: 10px solid black;
+            }
+        </style>
+
+        <title> Welcome to practice paper 2 </title>
     </head>
     <body>
-    <div>
+    <div class="grid-container">
+        <div class="grid-item1"> <h1> <u> <i> <strong> Welcome to Practice Paper-2 </strong> </i> </u> </h1> </div>
+        
+        <div class="grid-item2"> Below are the questions which are in the webpage of practice paper-2 </div>
+        <div class="grid-item3"> 
+            <p> 1) A student has to get 40% marks to pass in an examination. If the maximum marks in the examination are 500 and the
+                student scores 180 marks, by how many marks does the student fail? </p>
+            <li> A. 15 marks </li>
+            <li> B. 20 marks </li>
+            <li> C. 25 marks </li>
+            <li> D. 35 marks </li>
+            
+            <p> 2) Two alarm clocks ring their alarms at regular intervals of 50 seconds and 48 seconds, respectively. If they first
+                beep together at exactly 12:00 noon, at what time will they beep together again for the first time? </p>
+            <li> A. 12:10 PM </li>
+            <li> B. 12:12 PM </li>
+            <li> C. 12:11 PM </li>
+            <li> D. 12:20 PM </li>
+            
+            <p> 3) If the LCM of two numbers is 936, their HCF is 4, and one of the numbers is 72, what is the other number? </p>
+            <li> A. 42 </li>
+            <li> B. 52 </li>
+            <li> C. 62 </li>
+            <li> D. 72 </li><p> 4) Integers are listed from 700 to 1000. In how many of these integers is the sum of the digits exactly 10? </p>
+            <li> A. 6 </li>
+            <li> B. 7 </li>
+            <li> C. 8 </li>
+            <li> D. 9 </li>
+            
+            <p> 5) The number of integers n satisfying -n + 2 ≥ 0 and 2n ≥ 4 is? </p>
+            <li> A. 0 </li>
+            <li> B. 1 </li>
+            <li> C. 2 </li>
+            <li> D. 3 </li>
+            
+            <p> 6) What is the value of x in the sequence: 2, 6, 12, 20, x, 42? </p>
+            <li> A. 25 </li>
+            <li> B. 30 </li>
+            <li> C. 32 </li>
+            <li> D. 36 </li>
+            
+            <p> 7) A sum of ₹600 is divided among A, B, and C in such a way that A gets ₹200 more than C, and B gets ₹100 more than
+                C. What is C's share? </p>
+            <li> A. ₹100 </li>
+            <li> B. ₹150 </li>
+            <li> C. ₹200 </li>
+            <li> D. ₹250 </li>
+            
+            <p> 8) If the price of an item increases by 25%, by what percentage must the new price be reduced to restore the
+                original price? </p>
+            <li> A. 20% </li>
+            <li> B. 25% </li>
+            <li> C. 30% </li>
+            <li> D. 33.33% </li>
+            
+            <p> 9) The sum of three consecutive odd integers is 87. What is the largest of these integers? </p>
+            <li> A. 27 </li>
+            <li> B. 29 </li>
+            <li> C. 31 </li>
+            <li> D. 33 </li>
+            
+            <p> 10) If the difference between the circumference and the diameter of a circle is 60 cm, what is the radius of the
+                circle? </p>
+            <li> A. 10 cm </li>
+            <li> B. 14 cm </li>
+            <li> C. 21 cm </li>
+            <li> D. 28 cm </li>
+            
+            <p> 11) In a mixture of 60 liters, the ratio of milk and water is 2:1. How much water must be added to make the ratio
+                1:2? </p>
+            <li> A. 20 litres </li>
+            <li> B. 30 litres </li>
+            <li> C. 40 litres </li>
+            <li> D. 60 litres </li>
+            
+            <p> 12) The simple interest on a certain sum for 2 years at 10% per annum is ₹200. What is the compound interest on the
+                same sum for the same period? </p>
+            <li> A. ₹200 </li>
+            <li> B. ₹205 </li>
+            <li> C. ₹210 </li>
+            <li> D. ₹220 </li>
+            
+            <p> 13) The average of 5 numbers is 40. If one number is excluded, the average becomes 35. What is the excluded number?
+            </p>
+            <li> A. </li>
+            <li> B. </li>
+            <li> C. </li>
+            <li> D. </li>
+            
+            <p> 14) In an election between two candidates, the winner gets 60% of the valid votes and wins by a margin of 1200
+                votes. What is the total number of valid votes? </p>
+            <li> A. 2000 </li>
+            <li> B. 3000 </li>
+            <li> C. 6000 </li>
+            <li> D. 12000 </li>
+            
+            <p> 15) The length of a rectangle is increased by 20% and the breadth is decreased by 10%. What is the change in area?
+            </p>
+            <li> A. +8% </li>
+            <li> B. -8% </li>
+            <li> C. +10% </li>
+            <li> D. no change </li>
+        </div>
+        <div class="grid-item4"> <p>Click here to view <a href="IAS SECOND PAGE.html"> Click here to go to the second page</a>
+            Building: Public Service Commission, West BengalStreet: 161-A, Shyama Prasad Mukherjee RoadLocality: Mudiali,
+            Kalighat
+            (Near Tollygunge Railway Bridge) City: KolkataPin Code: 700026 <p> 
 
-         <h1> <u> <i> <strong> Welcome to Practice Paper-2 </strong> </i> </u> </h1>
-        <div> Below are the questions which are in the webpage of practice paper-2 </div>
-        <p> 1) A student has to get 40% marks to pass in an examination. If the maximum marks in the examination are 500 and the student scores 180 marks, by how many marks does the student fail? </p>
-        <li> A. 15 marks </li>
-        <li> B. 20 marks </li>
-        <li> C. 25 marks </li>
-        <li> D. 35 marks </li>
-
-        <p> 2) Two alarm clocks ring their alarms at regular intervals of 50 seconds and 48 seconds, respectively. If they first beep together at exactly 12:00 noon, at what time will they beep together again for the first time? </p>
-        <li> A. 12:10 PM </li>
-        <li> B. 12:12 PM </li>
-        <li> C. 12:11 PM </li>
-        <li> D. 12:20 PM </li>
-
-        <p> 3) If the LCM of two numbers is 936, their HCF is 4, and one of the numbers is 72, what is the other number? </p>
-        <li> A. 42 </li>
-        <li> B. 52 </li>
-        <li> C. 62 </li>
-        <li> D. 72 </li>
-
-        <p> 4) Integers are listed from 700 to 1000. In how many of these integers is the sum of the digits exactly 10? </p>
-        <li> A. 6 </li>
-        <li> B. 7 </li>
-        <li> C. 8 </li>
-        <li> D. 9 </li>
-
-        <p> 5) The number of integers n satisfying -n + 2 ≥ 0 and 2n ≥ 4 is? </p>
-        <li> A. 0 </li> 
-        <li> B. 1 </li>  
-        <li> C. 2 </li> 
-        <li> D. 3 </li>
-
-        <p> 6) What is the value of x in the sequence: 2, 6, 12, 20, x, 42? </p>
-        <li> A. 25 </li>
-        <li> B. 30 </li>
-        <li> C. 32 </li>
-        <li> D. 36 </li>
-
-        <p> 7) A sum of ₹600 is divided among A, B, and C in such a way that A gets ₹200 more than C, and B gets ₹100 more than C. What is C's share? </p>
-        <li> A. ₹100 </li>
-        <li> B. ₹150 </li>
-        <li> C. ₹200 </li>
-        <li> D. ₹250 </li>
-
-        <p> 8) If the price of an item increases by 25%, by what percentage must the new price be reduced to restore the original price? </p>
-        <li> A. 20% </li>
-        <li> B. 25% </li>
-        <li> C. 30% </li>
-        <li> D. 33.33% </li>
-
-        <p> 9) The sum of three consecutive odd integers is 87. What is the largest of these integers? </p>
-        <li> A. 27 </li>
-        <li> B. 29 </li>
-        <li> C. 31 </li>
-        <li> D. 33 </li>
-
-        <p> 10) If the difference between the circumference and the diameter of a circle is 60 cm, what is the radius of the circle? </p>
-        <li> A. 10 cm </li>
-        <li> B. 14 cm </li>
-        <li> C. 21 cm </li>
-        <li> D. 28 cm </li>
-
-        <p> 11) In a mixture of 60 liters, the ratio of milk and water is 2:1. How much water must be added to make the ratio 1:2? </p>
-        <li> A. 20 litres </li>
-        <li> B. 30 litres </li>
-        <li> C. 40 litres </li>
-        <li> D. 60 litres </li>
-
-        <p> 12) The simple interest on a certain sum for 2 years at 10% per annum is ₹200. What is the compound interest on the same sum for the same period? </p>
-        <li> A. ₹200 </li>
-        <li> B. ₹205 </li>
-        <li> C. ₹210 </li>
-        <li> D. ₹220 </li>
-
-        <p> 13) The average of 5 numbers is 40. If one number is excluded, the average becomes 35. What is the excluded number? </p>
-        <li> A. </li>
-        <li> B. </li>
-        <li> C. </li>
-        <li> D. </li>
-
-        <p> 14) In an election between two candidates, the winner gets 60% of the valid votes and wins by a margin of 1200 votes. What is the total number of valid votes? </p>
-        <li> A. 2000 </li>
-        <li> B. 3000 </li>
-        <li> C. 6000 </li>
-        <li> D. 12000 </li>
-
-        <p> 15) The length of a rectangle is increased by 20% and the breadth is decreased by 10%. What is the change in area? </p>
-        <li> A. +8% </li>
-        <li> B. -8% </li>
-        <li> C. +10% </li>
-        <li> D. no change </li>
-        <p>Click here to view <a href="IAS SECOND PAGE.html"> Click here to go to the second page </a>.</p>
+        </div>
     </div>
 
         

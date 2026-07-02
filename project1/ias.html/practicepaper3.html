@@ -1,16 +1,46 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf8">
-        <meta name="viewport" content="width=device-width">
-        <title>Replit</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdncdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <style>
+            .grid-item1 {
+                grid-area: header;
+            }
+            .grid-item2 {
+                grid-area: menu; 
+            }
+            .grid-item3 {
+                grid-area: main;
+            }
+            .grid-item4 {
+                grid-area: footer;
+            }
+            .grid-container {
+                display: grid;
+                grid-template-columns: auto auto auto auto auto;
+                grid-template-areas: 
+                'header header header header header'
+                'menu main main main main'
+                'footer footer footer footer footer';
+                background-color: blue;
+                padding: 45px;
+            }
+            .grid-container div {
+                background-color: yellow;
+                text-align: center;
+                padding: 35px;
+                border: 10px solid black;
+            }
+        </style>
         <title> Welcome to Chapter2 </title>
     </head>
     <body>
-        <h1> <u> <i> <strong> Welcome to practice paper-3 </strong> </i> </u></h1>
-        <div> Below are the questions which are in the webpage of practice paper-2 </div>
-        <div>
+        <div class="grid-container">
+            <div class="grid-item1"> <h1> <u> <i> <strong> Welcome to practice paper-3 </strong> </i> </u></h1> </div>
+        
+        
+        <div class="grid-item2"> Below are the questions which are in the webpage of practice paper-3. There are 10 ques. in total. This is a bonus practice paper level, that's the reason it has only 10 questions! </div>
+
+        <div class="grid-item3">
             <p> 1) At what time between 3 and 4 o'clock will the hands of a clock be together? </p>
             <li> A. 176/11 min past 3 </li>
             <li> B. 15 min past 3 </li>
@@ -41,8 +71,40 @@
             <li> C. ₹60 </li>
             <li> D. ₹70 </li>
 
-            <p> 6) </p>
+            <p> 6) When a certain number is divided by 36, 48, and 60, it leaves a remainder of 7 in each case. Which of the following is the closest such number to 3000? </p>
+            <li> A. 2887 </li>
+            <li> B. 2947 </li>
+            <li> C. 2987 </li>
+            <li> D. 3007 </li>
+
+            <p> 7) Vessel A contains a mixture of milk and water in the ratio 5:3, and Vessel B contains a mixture in the ratio 2:1. If  mixtures from Vessel A and Vessel B are mixed in the ratio 3:2 in a third vessel, what will be the final ratio of milk to water? </p>
+            <li> A. 113 : 67 </li>
+            <li> B. 117 : 73 </li>
+            <li> C. 121 : 71 </li>
+            <li> D. 127 : 73 </li>
+
+            <p> 8) A batch of 50 students has an average height of 160 cm. Later, it was discovered that the height of one student was recorded as 168 cm instead of 158 cm. What is the correct average height of the students? </p>
+            <li> A. 159.8 cm </li>
+            <li> B. 160.2 cm </li>
+            <li> C. 160.8 cm </li>
+            <li> D. 161.2 cm </li>
+
+            <p> 9) A train travels a distance of 300 km at a constant speed. If the speed of the train is increased by 10 km/hr, the journey takes 1 hour less. What is the original speed of the train? </p>
+            <li> A. 40 km/hr </li>
+            <li> B. 50 km/hr </li>
+            <li> C. 60 km/hr </li>
+            <li> D. 75 km/hr </li>
+
+            <p> 10) A shopkeeper marks up the price of an article by 40% above its cost price. He then allows two successive discounts of 10% and 15% on the marked price. If he makes a profit of Rs. 108, what was the original cost price of the article? </p>
+            <li> A. Rs. 1200 </li>
+            <li> B. Rs. 1500 </li>
+            <li> C. Rs. 1800 </li>
+            <li> D. Rs. 2000 </li>
             <p>Click here to view <a href="IAS SECOND PAGE.html"> Click here to go to the second page </a>.</p>
+        </div>
+        <div class="grid-item4">
+            <p>Click here to view <a href="IAS SECOND PAGE.html"> Click here to go to the second page</a> Building: Public Service Commission, West BengalStreet: 161-A, Shyama Prasad Mukherjee RoadLocality: Mudiali, Kalighat (Near Tollygunge Railway Bridge) City: KolkataPin Code: 700026 </p>
+        </div>
         </div>
     </body>
 </html>

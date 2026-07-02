@@ -1,97 +1,131 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf8">
-        <meta name="viewport" content="width=device-width">
-        <title>Replit</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdncdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <title> Welcome to chapter 1 </title>
+        <style>
+            .grid-item1 {
+                grid-area: header;
+            }
+            .grid-item2 {
+                grid-area: menu; 
+            }
+            .grid-item3 {
+                grid-area: main;
+            }
+            .grid-item4 {
+                grid-area: footer;
+            }
+            .grid-container {
+                display: grid;
+                grid-template-columns: auto auto auto auto auto;
+                grid-template-areas: 
+                'menu header header header header'
+                'menu main main main main'
+                'footer footer footer footer footer';
+                background-color: blue;
+                padding: 35px;
+            }
+            .grid-container div {
+                background-color: yellow;
+                text-align: center;
+                padding: 35px;
+                border: 10px solid black;
+            }
+        </style>
     </head>
     <BODY>
-        <div> 
-            <h1> <u> <i> <strong> Welcome to practice paper-1 </strong> </i> </u></h1>
-            <div> Below are the questions which are in the webpage of practice paper-2 </div>
-               <p> 1) Integers are listed from 700 to 1000. How many integers are there in which the sum of the digits is 10? </p>
-               <li> A. 6 </li>
-               <li> B. 7 </li>
-               <li> C. 8 </li>
-               <li> D. 9 </li>
-
-               <p> 2) A man covers a distance in 1 hour 24 minutes. He covers 2/3 of the distance at 4 km/h and the remaining distance at 5 km/h. What is the total distance to be covered? </p>
-               <li> A. 4 km </li>
-               <li> B. 6 km </li>
-               <li> C. 8 km </li>
-               <li> D. 10 km </li>
-               <p> 3) A can complete a piece of work in 15 days, and B can complete it in 10 days. If they work together, how many days will they take to finish the work? </p>
-               <li> A. 5 days </li>
-               <li> B. 6 days </li>
-               <li> C. 7.5 days </li>
-               <li> D. 8 days </li>
-               <p> 4) What is the remainder when 7⁹⁹ is divided by 24? </p>
-               <li>A. 1  </li>
-               <li>B. 7  </li>
-               <li>C. 19 </li>
-               <li>D. 21 </li>
-               <p> 5) Three prime numbers p, q, and r, each less than 20, are such that p - q = q - r. How many distinct possible values can we get for (p + q + r)?</p>
-               <li>A. 1 </li>
-               <li>B. 2 </li>
-               <li>C. 3 </li>
-               <li>D. 4 </li>
-               <p> 6) How many different five-digit prime numbers can be formed using all the digits 1, 2, 3, 4, and 5 without repetition? </p>
-               <li>A. 0 </li> 
-               <li>B. 1 </li>
-               <li>C. 2 </li>
-               <li>D. 5 </li>
-               <p> 7) A bag contains 20 balls. 8 are green, 7 are white, and 5 are red. What is the minimum number of balls that must be picked up from the bag blindfolded to be assured of picking at least one ball of each color? </p>
-               <li>A. 8  </li>
-               <li>B. 13 </li>
-               <li>C. 16 </li>
-               <li>D. 17 </li>
-               <p> 8) A three-digit number ABC is formed by distinct non-zero digits. What is the difference between the maximum and minimum possible sum of its digits? </p>
-               <li>A. 12</li>
-               <li>B. 15</li>
-               <li>C. 18</li>
-               <li>D. 21</li>
-               <p> 9) In how many ways can the letters of the word "EQUATION" be arranged so that the vowels and consonants occur together? </p>
-               <li> A. 5040 </li>
-               <li> B. 2880 </li>
-               <li> C. 1440 </li>
-               <li> D. 720 </li>
-               <p> 10) The mean marks of 50 students in a class was calculated as 60. Later, it was discovered that a score of 83 was incorrectly recorded as 33. What is the correct mean? </p>
-               <li> A. 59 </li>
-               <li> B. 60 </li>
-               <li> C. 61 </li>
-               <li> D. 62 </li>
-               <p> 11) Find the rank of the matrix: A =  1 & 2 & 3  2 & 4 & 6  3 & 6 & 9 </p>
-               <li> A. 1 </li>
-               <li> B. 2 </li>
-               <li> C. 3 </li>
-               <li> D. 0 </li>
-               <p> 12) In a group of 6 people, how many distinct committees of 4 can be formed if a specific person must always be included? </p>
-               <li> A. 10 </li>
-               <li> B. 15 </li>
-               <li> C. 20 </li>
-               <li> D. 25 </li>
-               <p> 13) The mean of 5 observations is 20. If each observation is multiplied by 2, what is the new mean?</p>
-               <li> A. 20 </li>
-               <li> B. 30 </li>
-               <li> C. 40 </li>
-               <li> D. 50 </li>
-               <p> 14) Three prime numbers p, q, and r are all less than 20. If p - q = q - r, how many distinct possible values can we get for (p + q + r)? </p>
-               <li> A. 3 </li>
-               <li> B. 4 </li>
-               <li> C. 5 </li>
-               <li> D. 6 </li>
-               <p> 15) Three spiders A, B, and C start to climb on different pillars simultaneously. In one chance, A climbs 6 cm but slips 1 cm. B climbs 7 cm but slips 3 cm. C climbs 6.5 cm but slips 2 cm. If each needs 40 chances to reach the top, what is the height of the shortest pillar? </p>
-               <li> A. 161 cm </li>
-               <li> B. 163 cm </li>
-               <li> C. 281 cm </li>
-               <li> D. 210 cm </li>
-            <p>Click here to view <a href="IAS SECOND PAGE.html"> Click here to go to the second page </a>.</p>
+        <div class="grid-container"> 
+            <div class="grid-item1"> <h1> <u> <i> <strong> Welcome to practice paper-1 </strong> </i> </u> </h1> </div>
+            <div class="grid-item2">In the beside box -> are the questions which are in the webpage of practice paper-1 </div>
+            <div class="grid-item3"> <p> 1) Integers are listed from 700 to 1000. How many integers are there in which the sum of the digits is 10? </p>
+            <li> A. 6 </li>
+            <li> B. 7 </li>
+            <li> C. 8 </li>
+            <li> D. 9 </li>
+            
+            <p> 2) A man covers a distance in 1 hour 24 minutes. He covers 2/3 of the distance at 4 km/h and the remaining distance
+                at 5 km/h. What is the total distance to be covered? </p>
+            <li> A. 4 km </li>
+            <li> B. 6 km </li>
+            <li> C. 8 km </li>
+            <li> D. 10 km </li>
+            <p> 3) A can complete a piece of work in 15 days, and B can complete it in 10 days. If they work together, how many days
+                will they take to finish the work? </p>
+            <li> A. 5 days </li>
+            <li> B. 6 days </li>
+            <li> C. 7.5 days </li>
+            <li> D. 8 days </li>
+            <p> 4) What is the remainder when 7⁹⁹ is divided by 24? </p>
+            <li>A. 1 </li>
+            <li>B. 7 </li>
+            <li>C. 19 </li>
+            <li>D. 21 </li>
+            <p> 5) Three prime numbers p, q, and r, each less than 20, are such that p - q = q - r. How many distinct possible
+                values can we get for (p + q + r)?</p>
+            <li>A. 1 </li>
+            <li>B. 2 </li>
+            <li>C. 3 </li>
+            <li>D. 4 </li>
+            <p> 6) How many different five-digit prime numbers can be formed using all the digits 1, 2, 3, 4, and 5 without
+                repetition? </p>
+            <li>A. 0 </li>
+            <li>B. 1 </li>
+            <li>C. 2 </li>
+            <li>D. 5 </li>
+            <p> 7) A bag contains 20 balls. 8 are green, 7 are white, and 5 are red. What is the minimum number of balls that must be picked up from the bag blindfolded to be assured of picking at least one ball of each color? </p>
+            <li>A. 8 </li>
+            <li>B. 13 </li>
+            <li>C. 16 </li>
+            <li>D. 17 </li>
+            <p> 8) A three-digit number ABC is formed by distinct non-zero digits. What is the difference between the maximum and minimum possible sum of its digits? </p>
+            <li>A. 12</li>
+            <li>B. 15</li>
+            <li>C. 18</li>
+            <li>D. 21</li>
+            <p> 9) In how many ways can the letters of the word "EQUATION" be arranged so that the vowels and consonants occur together? </p>
+            <li> A. 5040 </li>
+            <li> B. 2880 </li>
+            <li> C. 1440 </li>
+            <li> D. 720 </li>
+            <p> 10) The mean marks of 50 students in a class was calculated as 60. Later, it was discovered that a score of 83 was incorrectly recorded as 33. What is the correct mean? </p>
+            <li> A. 59 </li>
+            <li> B. 60 </li>
+            <li> C. 61 </li>
+            <li> D. 62 </li>
+            <p> 11) Find the rank of the matrix: A = 1 & 2 & 3 2 & 4 & 6 3 & 6 & 9 </p>
+            <li> A. 1 </li>
+            <li> B. 2 </li>
+            <li> C. 3 </li>
+            <li> D. 0 </li>
+            <p> 12) In a group of 6 people, how many distinct committees of 4 can be formed if a specific person must always be included? </p>
+            <li> A. 10 </li>
+            <li> B. 15 </li>
+            <li> C. 20 </li>
+            <li> D. 25 </li>
+            <p> 13) The mean of 5 observations is 20. If each observation is multiplied by 2, what is the new mean? </p>
+            <li> A. 20 </li>
+            <li> B. 30 </li>
+            <li> C. 40 </li>
+            <li> D. 50 </li>
+            <p> 14) Three prime numbers p, q, and r are all less than 20. If p - q = q - r, how many distinct possible values can we get for (p + q + r)? </p>
+            <li> A. 3 </li>
+            <li> B. 4 </li>
+            <li> C. 5 </li>
+            <li> D. 6 </li>
+            <p> 15) Three spiders A, B, and C start to climb on different pillars simultaneously. In one chance, A climbs 6 cm but slips 1 cm. B climbs 7 cm but slips 3 cm. C climbs 6.5 cm but slips 2 cm. If each needs 40 chances to reach the top, what is the height of the shortest pillar? </p>
+            <li> A. 161 cm </li>
+            <li> B. 163 cm </li>
+            <li> C. 281 cm </li>
+            <li> D. 210 cm </li>
+        </div>
+        <div class="grid-item4"> <p>Click here to view <a href="IAS SECOND PAGE.html"> Click here to go to the second page</a> 
+        Building: Public Service Commission, West BengalStreet: 161-A, Shyama Prasad Mukherjee RoadLocality: Mudiali, Kalighat
+        (Near Tollygunge Railway Bridge) City: KolkataPin Code: 700026
+        </a>.</p> </div>
+            
         </div>    
 
-                Building: Public Service Commission, West BengalStreet: 161-A, Shyama Prasad Mukherjee RoadLocality: Mudiali, Kalighat
-                (Near Tollygunge Railway Bridge)City: KolkataPin Code: 700026
+                 
 
             </div>
         </div>
