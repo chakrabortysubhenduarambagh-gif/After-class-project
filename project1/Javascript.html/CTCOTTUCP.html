@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Changing the color of the text using css properties </title>
+        <style>
+             #myElement {
+                border: 10px solid darkcyan;
+                width: 100px;
+                height: 100px;
+                background-color: aqua;
+             }
+             #myp {
+                border: 10px dotted greenyellow;
+                width: 100px;
+                height: 100px;
+                background-color: bisque;
+             }
+        </style>
+        <meta charset="utf-8">
+    </head>
+    <body>
+
+        <h2> Change font color of HTML element in Javascript </h2>
+        <div id="myElement"> Hello World ! </div>
+        <div id="myp"> My name is Suborna Chakraborty </div>
+        <br>
+        <button type="button" onclick="changeStyle()"> Click Me </button>
+        <button type="button" onclick="changeColor()"> Click Me </button>
+        <button type="button" onclick="changeToNormal()"> Change red to normal </button>
+        <button type="button" onclick="changeBlueToNormal()"> Change Blue to normal </button>
+        <script>
+            function changeStyle() {
+                var element = document.getElementById("myElement");
+                element.style.color = "red";
+            }
+            function changeColor() {
+                var element = document.getElementById("myp");
+                element.style.color = "green";
+            }
+            function changeToNormal() {
+                var element = document.getElementById("myElement");
+                element.style.color = "black";
+            }
+            function changeBlueToNormal() {
+                var element = document.getElementById("myp");
+                element.style.color = "black";
+            }
+        </script>
+    </body>
+</html>
