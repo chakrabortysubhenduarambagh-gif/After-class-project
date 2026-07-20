@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Welcome to slideshow </title>
+</head>
+
+<body>
+    <section>
+        <img class="mySlides" src="mumbai image.jpg" style="height: 500px; width: 100%;">
+        <img class="mySlides" src="kolkata.jpg" style="height: 500px; width: 100%;">
+        <img class="mySlides" src="dehli image.jpg" style="height: 500px; width: 100%;">
+        <img class="mySlides" src="CHENNAIMAGES.jpg" style="height: 500px; width: 100%;">
+        <img class="mySlides" src="bengaluru image.jpg" style="height: 500px; width: 100%;">
+        <img class="mySlides" src="ahmedabad image.jpg" style="height: 500px; width: 100%;">
+        <img class="mySlides" src="hyderabad image.jpg" style="height: 500px; width: 100%;">
+    </section>
+    <p> These are the main cities of my country- India </p>
+
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) { myIndex = 1 }
+            x[myIndex - 1].style.display = "block";
+            setTimeout(carousel, 3000);
+        }
+    </script>
+</body>
+
+</html>
