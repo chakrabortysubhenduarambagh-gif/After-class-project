@@ -1,45 +1,126 @@
-.pimg3 {
-    background-image: url('ahmedabad.jpg');
-    min-height: 400px;
-    position: relative; 
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+    background-color: #b6f8ef;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a {
+    display: inline;
+    color: #1affa3;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #111;
+}
+
+.pimg1,
+.pimg2,
+.pimg3,
+.pimg4,
+.pimg5, 
+.pimg6 {
+    position: relative;
     opacity: 0.70;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    color: white;
 }
-.ptext .border {
-    background-color: #111;
-    color: #fff;
-    padding: 20px;
+
+.pimg1 {
+    background-image: url('kolkata.jpg');
+    min-height: 400px;
+    color: white;
 }
-.ptext .border.trans {
-    background-color: transparent;
+
+.pimg2 {
+    background-image: url('CHENNAIMAGES.jpg');
+    min-height: 400px;
+    color: white;
 }
-@media(max-width:568px) {
-    .pimg3 {
-        background-attachment: scroll;
-    }
+
+.pimg3 {
+    background-image: url('ahmedabad.jpg');
+    min-height: 400px;
+    color: white;
 }
+.pimg4 {
+    background-image: url('bengaluru.jpg');
+    min-height: 400px;
+    color: white;
+
+}
+.pimg5 {
+    background-image: url('mumbai.jpg');
+    min-height: 400px;
+    color: white;
+}
+.pimg6 {
+    background-image: url('delhi.jpg');
+    min-height: 400px;
+    color: white;
+
+}
+
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light {
+    background-color: #f4f4f4;
+    color: #666;
+}
+
 .section-dark {
     background-color: #282e34;
     color: #ddd;
 }
+
 .ptext {
     position: absolute;
     top: 50%;
     width: 100%;
     text-align: center;
-    color: #000;
+    color: white;
     font-size: 27px;
     letter-spacing: 8px;
     text-transform: uppercase;
 }
-.section {
-    text-align: center;
-    padding: 50px 80px;
+
+.ptext .border {
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
 }
-.section-light {
-    background-color: palevioletred;
-    color: #666;
+
+.ptext .border.trans {
+    background-color: transparent;
+}
+
+@media(max-width:568px) {
+
+    .pimg1,
+    .pimg2,
+    .pimg3,
+    .pimg4,
+    .pimg5,
+    .pimg6 {
+        background-attachment: scroll;
+    }
 }
