@@ -1,141 +1,37 @@
-body,
-html {
-    height: 100%;
-    margin: 0;
-    font-size: 16px;
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    line-height: 1.8em;
-    color: #666;
-    background-color: plum;
+body{
+    background-color: rgb(31, 73, 224);
 }
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: bisque;
-    color: rgb(76, 76, 76);
+.beech {
+    font-size: xx-large;
+    color: rebeccapurple;
+    background-color: greenyellow;
+    position: center;
+    font-style: oblique;
+}
+#p1 {
+    color: rgb(87, 129, 9);
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
 }
-
-.topnav {
-    overflow: hidden;
-    background-color: #333;
-}
-
-.topnav a {
-    display: inline;
-    color: #1affa3;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-.topnav a:hover {
-    background-color: #111;
-}
-
-.pimg1,
-.pimg2,
-.pimg3,
-.pimg4,
-.pimg5, 
-.pimg6,
-.pimg7 {
+.information {
+    color: white;
+    background-color: blueviolet;
     position: relative;
-    opacity: 0.70;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 540;
+    font-style: italic;
+    font-display: fallback;
 }
-
-.pimg1 {
-    background-image: url('kolkata.jpg');
-    min-height: 400px;
-    color: white;
+.information b {
+    color: greenyellow;
 }
-
-.pimg2 {
-    background-image: url('CHENNAIMAGES.jpg');
-    min-height: 400px;
-    color: white;
+.text {
+    color: red;
 }
-
-.pimg3 {
-    background-image: url('ahmedabad.jpg');
-    min-height: 400px;
-    color: white;
+#about h2 {
+    color: yellow;
 }
-.pimg4 {
-    background-image: url('bengaluru.jpg');
-    min-height: 400px;
-    color: white;
-
-}
-.pimg5 {
-    background-image: url('mumbai.jpg');
-    min-height: 400px;
-    color: white;
-}
-.pimg6 {
-    background-image: url('delhi.jpg');
-    min-height: 400px;
-    color: white;
-}
-.pimg7 {
-    background-image: url('cuisine.jpg');
-    min-height: 400px;
-    color: white;
-}
-
-.section {
-    text-align: center;
-    padding: 50px 80px;
-}
-
-.section-light {
-    background-color: #f4f4f4;
-    color: #666;
-}
-
-.section-dark {
-    background-color: #282e34;
-    color: #ddd;
-}
-
-.ptext {
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    color: white;
-    font-size: 27px;
-    letter-spacing: 8px;
-    text-transform: uppercase;
-}
-
-.ptext .border {
-    background-color: #111;
-    color: #fff;
-    padding: 20px;
-}
-
-.ptext .border.trans {
-    background-color: transparent;
-}
-
-@media(max-width:568px) {
-
-    .pimg1,
-    .pimg2,
-    .pimg3,
-    .pimg4,
-    .pimg5,
-    .pimg6, 
-    .pimg7 {
-        background-attachment: scroll;
-    }
+#skills h1 {
+    color: yellow;
 }
