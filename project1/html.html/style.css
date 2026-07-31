@@ -1,37 +1,83 @@
-body{
-    background-color: rgb(31, 73, 224);
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+    background-color: #b6f8ef;
 }
-.beech {
-    font-size: xx-large;
-    color: rebeccapurple;
-    background-color: greenyellow;
-    position: center;
-    font-style: oblique;
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
 }
-#p1 {
-    color: rgb(87, 129, 9);
+
+.topnav a{
+    display: inline;
+    color: #1affa3;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 28px;
+    padding:14px 16px;
+    text-decoration: none;
 }
-.information {
-    color: white;
-    background-color: blueviolet;
+
+.topnav a:hover {
+background-color: #111;
+}
+
+.pimg1 {
     position: relative;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: 540;
-    font-style: italic;
-    font-display: fallback;
+    opacity: 0.70;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
-.information b {
-    color: greenyellow;
+
+.pimg1 {
+    background-image: url('peace.jpg');
+    min-height: 100%;
 }
-.text {
-    color: red;
+
+.section {
+    text-align: center;
+    padding: 14px 16px;
 }
-#about h2 {
-    color: yellow;
+
+.section-light {
+    background-color: #f4f4f4;
+    color: #666;
 }
-#skills h1 {
-    color: yellow;
+
+.section-dark {
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.ptext .border{
+    background-color: #111;
+    color: #fff;
+    padding:20px;
+}
+
+.ptext .border .trans{
+    background-color: transparent;
+}
+
+@media(max-width:568px){
+    .pimg1 {
+        background-attachment: scroll;
+    }
 }
